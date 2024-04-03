@@ -9,6 +9,7 @@ Hardware Requirements:
 7. Micro USB power supply
 8. 8GB or larger microSD card
 9. SD Card Reader
+
 1. Raspberry Pi 3 Model B
 The Raspberry Pi 3 is the third generation Raspberry Pi. It replaced the Raspberry Pi 2 Model B in
 February 2016.
@@ -53,6 +54,7 @@ It is recommended that you use a 5V, 2A USB power supply for all models of Raspb
 The latest version of Raspbian, the default operating system recommended for the Raspberry Pi,
 requires an 8GB (or larger) micro SD card. SD card will store the operating systems as well as all
 the file and applications created by you.
+
 Installation:
 Now since you have all the required hardware, we will now learn how to get the operating
 system onto your microSD card so that you can start using software on your Raspberry Pi 1. Get
@@ -70,7 +72,8 @@ can use SD Formatter tool or any other tool. To write the image file of the oper
 the SD card you will require a Disk Imager tool. For this you can use Win32 Disk Imager tool.
 v. Once the image is written on the SD Card, your untitled SD card will now have the name boot.
 Your SD Card will now hold the Raspbian Operating system required for the first-time setup.
-Plugging in your Raspberry Pi
+
+Plugging in your Raspberry Pi:
 1. Begin by placing your SD card into the SD card slot on the Raspberry Pi. It will only fit one way.
 2. Next, plug your keyboard and mouse into the USB ports on the Raspberry Pi.
 3. Make sure that your monitor or TV is turned on, and that you have selected the right input
