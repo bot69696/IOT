@@ -1,7 +1,8 @@
 CONNECTION:
 BLUE-SHORT-PIN14
 RED-LONG-PIN12
-Type in the following code:
+
+CODE:
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
