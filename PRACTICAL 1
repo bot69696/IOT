@@ -1,0 +1,82 @@
+Raspberry Pi: Hardware Preparation and Installation
+Hardware Requirements:
+1. Raspberry Pi
+2. Monitor or TV
+3. HDMI cable
+4. Ethernet cable
+5. USB keyboard
+6. USB mouse
+7. Micro USB power supply
+8. 8GB or larger microSD card
+9. SD Card Reader
+1. Raspberry Pi 3 Model B
+The Raspberry Pi 3 is the third generation Raspberry Pi. It replaced the Raspberry Pi 2 Model B in
+February 2016.
+Compared to the Raspberry Pi 2 it has:
+• 1.2GHz 64-bit quad-core ARMv8 CPU
+• 802.11n Wireless LAN
+• Bluetooth 4.1
+• Bluetooth Low Energy (BLE)
+Like the Pi 2, it also has:
+• 4 USB ports
+• 40 GPIO pins
+• Full HDMI port
+• Ethernet port
+• Combined 3.5mm audio jack and composite video
+• Camera interface (CSI)
+• Display interface (DSI)
+• Micro SD card slot
+• Video Core IV 3D graphics core
+• The Raspberry Pi 3 has an identical form factor to the previous Pi 2 (and Pi 1 Model B+) and
+has complete compatibility with Raspberry Pi 1 and 2.
+2. Monitor or TV:
+A monitor or TV with HDMI in can be used as a display with a Raspberry Pi. Most modern
+television sets and monitors have an HDMI port, and are the easiest to get working with the
+Raspberry Pi. You can use an HDMI cable to connect the Raspberry Pi directly to the television or
+monitor. Some older monitors have a DVI port. These work well with the Raspberry Pi, although
+you'll need an HDMI-to-DVI adapter to attach to an HDMI cable, or a one-piece HDMIto-DVI
+cable. Some old monitors have a VGA port. These can be trickier to use as you'll need an HDMI-
+to-VGA converter, which can change digital video to analogue video. A simple port adapter
+won't work.
+3. HDMI to HDMI Cable:
+Connect Raspberry Pi to a Monitor or TV with a HDMI to HDMI cable.
+4. Ethernet cable:
+Ethernet cable will allow your Pi to connect with the internet. It is also useful for headless setup
+of Raspberry Pi.
+5. USB Keyboard and Mouse:
+Any standard USB keyboard and mouse can be used with the Raspberry Pi. This plug and play
+devices will work without any additional driver. Simply plug them into the Raspberry Pi and they
+should be recognised when it starts up.
+6. Power Supply:
+It is recommended that you use a 5V, 2A USB power supply for all models of Raspberry Pi.
+7. Micro SD Card:
+The latest version of Raspbian, the default operating system recommended for the Raspberry Pi,
+requires an 8GB (or larger) micro SD card. SD card will store the operating systems as well as all
+the file and applications created by you.
+Installation:
+Now since you have all the required hardware, we will now learn how to get the operating
+system onto your microSD card so that you can start using software on your Raspberry Pi 1. Get
+Raspbian OS on your microSD card
+i. Raspbian comes pre-installed with plenty of software for education, programming and general
+use. It has Python, Scratch, Sonic Pi, Java, Mathematica and more.
+ii. To download Raspbian log on to raspberrpi.org and click on the download, then click on
+Raspbian and lastly download the RASPBIAN JESSIE WITH DESKTOP file. You can choose either
+the Torrent file or ZIP file.
+iii. The downloaded file will be in zip format. To unzip the file, you will require an unzip tool. You
+can use any unzipping tool viz. WINRAR, 7ZIP etc. After unzipping the file, you will find a disc
+image file in the unzipped folder.
+iv. Now format the micro SD Card before writing the disc image file on the micro SD card. You
+can use SD Formatter tool or any other tool. To write the image file of the operating system on
+the SD card you will require a Disk Imager tool. For this you can use Win32 Disk Imager tool.
+v. Once the image is written on the SD Card, your untitled SD card will now have the name boot.
+Your SD Card will now hold the Raspbian Operating system required for the first-time setup.
+Plugging in your Raspberry Pi
+1. Begin by placing your SD card into the SD card slot on the Raspberry Pi. It will only fit one way.
+2. Next, plug your keyboard and mouse into the USB ports on the Raspberry Pi.
+3. Make sure that your monitor or TV is turned on, and that you have selected the right input
+(e.g. HDMI 1, DVI, etc). Connect your HDMI cable from your Raspberry Pi to your monitor or TV.
+5. If you intend to connect your Raspberry Pi to the internet, plug an Ethernet cable into the
+Ethernet port, or connect a WiFi dongle to one of the USB ports (unless you have a Raspberry Pi
+3).
+6. When you have plugged all the cables and SD card in correctly, connect the micro USB power
+supply. This action will turn on and boot your Raspberry Pi.
